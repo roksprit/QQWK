@@ -22,7 +22,7 @@ app.get('/redirect', (req, res) => {
         }
     } else {
         res.status(400).send('No URL provided');
-    }
+    } 
 });
 
 app.listen(3000, () => {
